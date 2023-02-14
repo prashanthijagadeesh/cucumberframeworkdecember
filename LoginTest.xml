@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing_Suite" >
+
+	
+	<test name="LoginTest">
+	<parameter name = "Browsername" value = "Chrome"/>
+	
+	
+	<parameter name="emailid" value="prashanthi.skvl@gmail.com"></parameter>
+	<parameter name="password" value="Test@123"></parameter>
+		<classes>
+					<class name="Test.cucumberframework.LoginTestCase1"></class>
+		
+					
+			
+			</classes>
+			
+		
+	</test>
+	
+	
+	
+	
+</suite>

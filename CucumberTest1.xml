@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Testing_Suite" >
+
+	
+	<test name="CucumberTest">
+	
+	
+	
+		<classes>
+					<class name="Test.cucumberframework.TestRunner"></class>
+		           
+					
+			
+			</classes>
+			
+		
+	</test>
+	
+	
+	
+	
+	
+</suite>

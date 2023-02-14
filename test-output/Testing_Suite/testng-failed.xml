@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing_Suite]" guice-stage="DEVELOPMENT">
+  <test name="LoginTest(failed)">
+    <parameter name="Browsername" value="Chrome"/>
+    <parameter name="password" value="Test@123"/>
+    <parameter name="emailid" value="prashanthi.skvl@gmail.com"/>
+    <classes>
+      <class name="Test.cucumberframework.LoginTestCase1">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Test.cucumberframework.LoginTestCase1 -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Testing_Suite] -->
